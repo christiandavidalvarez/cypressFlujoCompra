@@ -16,8 +16,11 @@ describe('realizar compra',()=>{
         //add to cart second product
         cy.get('#tbodyid > div:nth-child(2) a[class="hrefch"]').click()
         cy.get('@butoonAddToCart').click()
-        //confirm order in cart
+        //go to cart
         cy.get('#cartur').click()
+        //assert to number of products in cart
+        cy.get('#tbodyid > tr').should('have.length',2)
+        //confirm order in cart
         cy.get('.col-lg-1 > .btn').click()
         //insert data for confirm order
         cy.wait(3000)
@@ -35,9 +38,6 @@ describe('realizar compra',()=>{
         cy.get('p[class*="lead"]').should('contain.text','arturo')
         //finish process
         cy.get('.confirm').click()
-
-
-
 
     })
 })
