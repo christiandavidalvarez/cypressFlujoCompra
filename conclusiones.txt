@@ -1,6 +1,6 @@
 Resumen y conclusion del ejercicio: el ejercicio se realiza utilizando el framework cypress, 
 en lenguaje javascript para la realizacion de un flujo de compra con validaciones primarias 
-sobre la transaccion,quedando para mejorar la parametrizacion de valores, y la extraccion 
+sobre la transaccion, quedando para mejorar la parametrizacion de valores, y la extraccion 
 de las acciones en metodos para la implementacion de un patron de diseño page object.
 
 Retos del ejercicio: 

@@ -1,4 +1,4 @@
-PRECONDICION: tener instalado en el equipo donde se vaya a ejecutar nodejs
+PRECONDICION: tener instalado nodejs en el equipo donde se vaya a ejecutar el proyecto
 
 //Instalar version 9
 npm install cypress@9.7.0 --save-dev
